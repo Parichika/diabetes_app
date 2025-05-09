@@ -10,7 +10,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-Load the model
+# Load the model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
