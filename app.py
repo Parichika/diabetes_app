@@ -10,13 +10,13 @@ import streamlit as st
 import pickle
 import numpy as np
 
-Load the model
+#Load the model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Diabetes Prediction by Group 13")
 
-Example input fields – update according to your model's expected features
+#Example input fields – update according to your model's expected features
 st.subheader("Input Features")
 Glucose = st.number_input("Glucose", value=0.0)
 BMI = st.number_input("BMI", value=0.0)
