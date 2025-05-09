@@ -1,6 +1,5 @@
 streamlit
-pickle
-numpy
-pandas
 scikit-learn
+pandas
+numpy
 matplotlib
